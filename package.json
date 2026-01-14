@@ -1,0 +1,31 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "This is PlayWright automation project",
+  "license": "ISC",
+  "author": "Quality Thought",
+  "type": "commonjs",
+  "main": "index.js",
+  "keywords": [
+    "pw",
+    "ts",
+    "js"
+  ],
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.5.0",
+    "@cucumber/messages": "^31.2.0",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "allure-commandline": "^2.36.0",
+    "allure-cucumberjs": "^3.4.4",
+    "allure-js-commons": "^3.4.4",
+    "cucumber-html-reporter": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "playwright": "^1.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
